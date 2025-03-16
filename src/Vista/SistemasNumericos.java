@@ -1,6 +1,5 @@
 package Vista;
 
-import Modelo.ConversionesYOperaciones;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -14,9 +13,6 @@ import javafx.stage.Stage;
 public class SistemasNumericos extends Application {
 
     public static void main(String[] args) throws Exception {
-        ConversionesYOperaciones modelo = new ConversionesYOperaciones();
-        System.out.println(modelo.restaOctalOperacion("12", "13"));
-        System.out.println(modelo.divisionNumerosOctales("325", "11"));
         launch(args);
     }
 

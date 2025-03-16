@@ -37,17 +37,17 @@
                               <Font name="System Bold" size="14.0" />
                            </font>
                         </Label>
-                        <TextField fx:id="txtHexDec" alignment="CENTER" layoutX="247.0" layoutY="309.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
+                        <TextField fx:id="txtHexDec" alignment="CENTER" editable="false" layoutX="247.0" layoutY="309.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
                            <font>
                               <Font name="System Bold" size="13.0" />
                            </font>
                         </TextField>
-                        <TextField fx:id="txtHexOct" alignment="CENTER" layoutX="597.0" layoutY="309.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
+                        <TextField fx:id="txtHexOct" alignment="CENTER" editable="false" layoutX="597.0" layoutY="309.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
                            <font>
                               <Font name="System Bold" size="13.0" />
                            </font>
                         </TextField>
-                        <TextField fx:id="txtHexBin" alignment="CENTER" layoutX="417.0" layoutY="309.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
+                        <TextField fx:id="txtHexBin" alignment="CENTER" editable="false" layoutX="417.0" layoutY="309.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
                            <font>
                               <Font name="System Bold" size="13.0" />
                            </font>
@@ -77,17 +77,17 @@
                               <Font name="System Bold" size="14.0" />
                            </font>
                         </Label>
-                        <TextField fx:id="txtBinHex" alignment="CENTER" layoutX="597.0" layoutY="169.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
+                        <TextField fx:id="txtBinHex" alignment="CENTER" editable="false" layoutX="597.0" layoutY="169.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
                            <font>
                               <Font name="System Bold" size="13.0" />
                            </font>
                         </TextField>
-                        <TextField fx:id="txtDecOct" alignment="CENTER" layoutX="417.0" layoutY="97.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
+                        <TextField fx:id="txtDecOct" alignment="CENTER" editable="false" layoutX="417.0" layoutY="97.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
                            <font>
                               <Font name="System Bold" size="13.0" />
                            </font>
                         </TextField>
-                        <TextField fx:id="txtOctHex" alignment="CENTER" layoutX="597.0" layoutY="239.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
+                        <TextField fx:id="txtOctHex" alignment="CENTER" editable="false" layoutX="597.0" layoutY="239.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
                            <font>
                               <Font name="System Bold" size="13.0" />
                            </font>
@@ -117,17 +117,17 @@
                               <Font name="System Bold" size="14.0" />
                            </font>
                         </Label>
-                        <TextField fx:id="txtDecHex" alignment="CENTER" layoutX="597.0" layoutY="97.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
+                        <TextField fx:id="txtDecHex" alignment="CENTER" editable="false" layoutX="597.0" layoutY="97.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
                            <font>
                               <Font name="System Bold" size="13.0" />
                            </font>
                         </TextField>
-                        <TextField fx:id="txtBinDec" alignment="CENTER" layoutX="245.0" layoutY="169.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
+                        <TextField fx:id="txtBinDec" alignment="CENTER" editable="false" layoutX="245.0" layoutY="169.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
                            <font>
                               <Font name="System Bold" size="13.0" />
                            </font>
                         </TextField>
-                        <TextField fx:id="txtOctBin" alignment="CENTER" layoutX="417.0" layoutY="239.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
+                        <TextField fx:id="txtOctBin" alignment="CENTER" editable="false" layoutX="417.0" layoutY="239.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
                            <font>
                               <Font name="System Bold" size="13.0" />
                            </font>
@@ -157,17 +157,17 @@
                               <Font name="System Bold" size="14.0" />
                            </font>
                         </Label>
-                        <TextField fx:id="txtOctDec" alignment="CENTER" layoutX="245.0" layoutY="239.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
+                        <TextField fx:id="txtOctDec" alignment="CENTER" editable="false" layoutX="245.0" layoutY="239.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
                            <font>
                               <Font name="System Bold" size="13.0" />
                            </font>
                         </TextField>
-                        <TextField fx:id="txtDecBin" alignment="CENTER" layoutX="250.0" layoutY="98.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
+                        <TextField fx:id="txtDecBin" alignment="CENTER" editable="false" layoutX="250.0" layoutY="98.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
                            <font>
                               <Font name="System Bold" size="13.0" />
                            </font>
                         </TextField>
-                        <TextField fx:id="txtBinOct" alignment="CENTER" layoutX="417.0" layoutY="169.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
+                        <TextField fx:id="txtBinOct" alignment="CENTER" editable="false" layoutX="417.0" layoutY="169.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
                            <font>
                               <Font name="System Bold" size="13.0" />
                            </font>
@@ -293,7 +293,7 @@
                               <Font name="System Bold" size="16.0" />
                            </font>
                         </Button>
-                        <TextField fx:id="txtResultadoBin" alignment="CENTER" layoutX="585.0" layoutY="101.0" prefHeight="40.0" prefWidth="277.0" styleClass="txt">
+                        <TextField fx:id="txtResultadoBin" alignment="CENTER" editable="false" layoutX="585.0" layoutY="101.0" prefHeight="40.0" prefWidth="277.0" styleClass="txt">
                            <font>
                               <Font name="System Bold" size="13.0" />
                            </font>
@@ -313,12 +313,12 @@
                               <Font name="System Bold" size="16.0" />
                            </font>
                         </Button>
-                        <TextField fx:id="txtResultadoOct" alignment="CENTER" layoutX="585.0" layoutY="201.0" prefHeight="40.0" prefWidth="277.0" styleClass="txt">
+                        <TextField fx:id="txtResultadoOct" alignment="CENTER" editable="false" layoutX="585.0" layoutY="201.0" prefHeight="40.0" prefWidth="277.0" styleClass="txt">
                            <font>
                               <Font name="System Bold" size="13.0" />
                            </font>
                         </TextField>
-                        <TextField fx:id="txtResultadoHex" alignment="CENTER" layoutX="585.0" layoutY="298.0" prefHeight="40.0" prefWidth="277.0" styleClass="txt">
+                        <TextField fx:id="txtResultadoHex" alignment="CENTER" editable="false" layoutX="585.0" layoutY="298.0" prefHeight="40.0" prefWidth="277.0" styleClass="txt">
                            <font>
                               <Font name="System Bold" size="13.0" />
                            </font>

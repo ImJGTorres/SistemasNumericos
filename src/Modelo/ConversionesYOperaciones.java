@@ -10,7 +10,6 @@ public class ConversionesYOperaciones {
         String caracteresDecimales = "0123456789";
         for (int i = 0; i < decimal.length(); i++) {
             char caracter = decimal.charAt(i);
-            // Si no se encuentra dentro de los caracteres válidos, regresamos false
             if (caracteresDecimales.indexOf(caracter) == -1) {
                 return false;
             }
@@ -32,7 +31,6 @@ public class ConversionesYOperaciones {
         String caracteresOctales = "01234567";
         for (int i = 0; i < octal.length(); i++) {
             char caracter = octal.charAt(i);
-            // Si no se encuentra dentro de los caracteres válidos, regresamos false
             if (caracteresOctales.indexOf(caracter) == -1) {
                 return false;
             }
@@ -40,13 +38,10 @@ public class ConversionesYOperaciones {
         return true;
     }
 
-// Nota: se debe enviar la cadena hexadecimal convertida a mayúsculas
     public static boolean validarHexadecimal(String hexadecimal) {
-        // Comprobar si solo tiene números del 0 al 9 y letras de la A a la F
         String caracteresHexadecimales = "0123456789ABCDEF";
         for (int i = 0; i < hexadecimal.length(); i++) {
             char caracter = Character.toUpperCase(hexadecimal.charAt(i));
-            // Si no se encuentra dentro de los caracteres válidos, regresamos false
             if (caracteresHexadecimales.indexOf(caracter) == -1) {
                 return false;
             }
@@ -55,9 +50,6 @@ public class ConversionesYOperaciones {
     }
 
     public String decimalABinario(int decimal) {
-//        if (validarDecimal(decimal) == false) {
-//            throw new RuntimeException("NO ES UN NUMERO DECIMAL");
-//        }
         if (decimal == 0) {
             return "0";
         } else {
@@ -335,28 +327,6 @@ public class ConversionesYOperaciones {
         return resultado;
     }
 
-//    public String complementoADos(String numero) {
-//        int indice = numero.length();
-//        String nuevo = "";
-//        for (int i = numero.length() - 1; i >= 0; i--) {
-//            if (numero.charAt(i) == '1') {
-//                nuevo = numero.charAt(i) + nuevo;
-//                indice = i - 1;
-//                break;
-//            }
-//            nuevo = numero.charAt(i) + nuevo;
-//        }
-//        for (int i = indice; i >= 0; i--) {
-//            if (numero.charAt(i) == '1') {
-//                nuevo = '0' + nuevo;
-//            } else if (numero.charAt(i) == '0') {
-//                nuevo = '1' + nuevo;
-//            } else {
-//                nuevo = numero.charAt(i) + nuevo;
-//            }
-//        }
-//        return nuevo;
-//    }
     public String divisionNumerosBinarios(String numeroUno, String numeroDos) {
         String resultado = "";
         int cont = 0;
