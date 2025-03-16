@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="900.0" styleClass="body" stylesheets="@style.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Control.SistemasNumericosController">
+   <children>
+      <Label layoutX="199.0" layoutY="3.0" text="CONVERSIONES Y OPERACIONES DE SISTEMAS NUMERICOS" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TabPane fx:id="tabPaneTodo" layoutY="75.0" prefHeight="406.0" prefWidth="900.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab fx:id="tabConversiones" text="Conversiones">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="349.0" prefWidth="639.0">
+                     <children>
+                        <Label layoutX="32.0" layoutY="75.0" text="Ingrese el número Decimal" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txtIngreseHexadecimal" alignment="CENTER" layoutX="43.0" layoutY="309.0" prefHeight="28.0" prefWidth="152.0" styleClass="txt">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </TextField>
+                        <Label layoutX="296.0" layoutY="73.0" text="Binario" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txtHexDec" alignment="CENTER" layoutX="247.0" layoutY="309.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="txtHexOct" alignment="CENTER" layoutX="597.0" layoutY="309.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="txtHexBin" alignment="CENTER" layoutX="417.0" layoutY="309.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </TextField>
+                        <Label layoutX="15.0" layoutY="285.0" text="Ingrese el número Hexadecimal" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txtIngreseOctal" alignment="CENTER" layoutX="43.0" layoutY="239.0" prefHeight="28.0" prefWidth="152.0" styleClass="txt">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </TextField>
+                        <Label layoutX="293.0" layoutY="285.0" text="Decimal" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="653.0" layoutY="285.0" text="Octal" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="627.0" layoutY="145.0" text="Hexadecimal" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txtBinHex" alignment="CENTER" layoutX="597.0" layoutY="169.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="txtDecOct" alignment="CENTER" layoutX="417.0" layoutY="97.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="txtOctHex" alignment="CENTER" layoutX="597.0" layoutY="239.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </TextField>
+                        <Label layoutX="34.0" layoutY="145.0" text="Ingrese el número Binario" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txtIngreseDecimal" alignment="CENTER" layoutX="43.0" layoutY="99.0" prefHeight="28.0" prefWidth="152.0" styleClass="txt">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </TextField>
+                        <Label layoutX="293.0" layoutY="146.0" text="Decimal" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="473.0" layoutY="145.0" text="Octal" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="627.0" layoutY="215.0" text="Hexadecimal" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txtDecHex" alignment="CENTER" layoutX="597.0" layoutY="97.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="txtBinDec" alignment="CENTER" layoutX="245.0" layoutY="169.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="txtOctBin" alignment="CENTER" layoutX="417.0" layoutY="239.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </TextField>
+                        <Label layoutX="41.0" layoutY="215.0" text="Ingrese el número Octal" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txtIngreseBinario" alignment="CENTER" layoutX="43.0" layoutY="169.0" prefHeight="28.0" prefWidth="152.0" styleClass="txt">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </TextField>
+                        <Label layoutX="293.0" layoutY="215.0" text="Decimal" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="472.0" layoutY="73.0" text="Octal" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="623.0" layoutY="72.0" text="Hexadecimal" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txtOctDec" alignment="CENTER" layoutX="245.0" layoutY="239.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="txtDecBin" alignment="CENTER" layoutX="250.0" layoutY="98.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="txtBinOct" alignment="CENTER" layoutX="417.0" layoutY="169.0" prefHeight="28.0" prefWidth="150.0" styleClass="txt">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </TextField>
+                        <Label layoutX="465.0" layoutY="215.0" text="Binario" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="465.0" layoutY="285.0" text="Binario" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="284.0" layoutY="17.0" text="Conversiones entre sistemas numericos" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="218.0" layoutY="101.0" text="=" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="218.0" layoutY="173.0" text="=" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="218.0" layoutY="240.0" text="=" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="218.0" layoutY="314.0" text="=" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="cmdConvertirDec" alignment="CENTER" contentDisplay="CENTER" layoutX="776.0" layoutY="91.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#convertirDec" prefHeight="37.0" prefWidth="95.0" text="Convertir" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="cmdConvertirBin" alignment="CENTER" contentDisplay="CENTER" layoutX="776.0" layoutY="163.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#convertirBin" prefHeight="37.0" prefWidth="95.0" text="Convertir" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="cmdConvertirOct" alignment="CENTER" contentDisplay="CENTER" layoutX="776.0" layoutY="234.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#convertirOct" prefHeight="37.0" prefWidth="95.0" text="Convertir" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="cmdConvertirHex" alignment="CENTER" contentDisplay="CENTER" layoutX="776.0" layoutY="304.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#convertirHex" prefHeight="37.0" prefWidth="95.0" text="Convertir" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab fx:id="tabOperaciones" text="Operaciones">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="256.0" layoutY="21.0" text="Operaciones con distintos sistemas numericos" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txtOperacionBin1" alignment="CENTER" layoutX="33.0" layoutY="101.0" prefHeight="40.0" prefWidth="165.0" styleClass="txt">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="txtOperacionBin2" alignment="CENTER" layoutX="288.0" layoutY="101.0" prefHeight="40.0" prefWidth="165.0" styleClass="txt">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </TextField>
+                        <Label layoutX="33.0" layoutY="72.0" text="Operaciones con numeros Binarios" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <ChoiceBox fx:id="chOperacionBin" layoutX="208.0" layoutY="101.0" prefHeight="40.0" prefWidth="70.0" styleClass="button" />
+                        <TextField fx:id="txtOperacionOct1" alignment="CENTER" layoutX="33.0" layoutY="201.0" prefHeight="40.0" prefWidth="165.0" styleClass="txt">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="txtOperacionOct2" alignment="CENTER" layoutX="288.0" layoutY="201.0" prefHeight="40.0" prefWidth="165.0" styleClass="txt">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </TextField>
+                        <Label layoutX="33.0" layoutY="169.0" text="Operaciones con numeros Octales" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <ChoiceBox fx:id="chOperacionOct" layoutX="208.0" layoutY="201.0" prefHeight="40.0" prefWidth="70.0" styleClass="button" />
+                        <TextField fx:id="txtOperacionHex1" alignment="CENTER" layoutX="33.0" layoutY="298.0" prefHeight="40.0" prefWidth="165.0" styleClass="txt">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="txtOperacionHex2" alignment="CENTER" layoutX="288.0" layoutY="298.0" prefHeight="40.0" prefWidth="165.0" styleClass="txt">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </TextField>
+                        <Label layoutX="33.0" layoutY="264.0" text="Operaciones con numeros Hexadecimales" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <ChoiceBox fx:id="chOperacionHex" layoutX="208.0" layoutY="298.0" prefHeight="40.0" prefWidth="70.0" styleClass="button" />
+                        <Button fx:id="cmdCalcularBin" alignment="CENTER" contentDisplay="CENTER" layoutX="473.0" layoutY="102.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#calcularBin" prefHeight="37.0" prefWidth="95.0" text="Calcular" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Button>
+                        <TextField fx:id="txtResultadoBin" alignment="CENTER" layoutX="585.0" layoutY="101.0" prefHeight="40.0" prefWidth="277.0" styleClass="txt">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </TextField>
+                        <Label layoutX="687.0" layoutY="71.0" text="Resultado" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="cmdCalcularOct" alignment="CENTER" contentDisplay="CENTER" layoutX="473.0" layoutY="202.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#calcularOct" prefHeight="37.0" prefWidth="95.0" text="Calcular" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="cmdCalcularHex" alignment="CENTER" contentDisplay="CENTER" layoutX="473.0" layoutY="299.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#calcularHex" prefHeight="37.0" prefWidth="95.0" text="Calcular" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Button>
+                        <TextField fx:id="txtResultadoOct" alignment="CENTER" layoutX="585.0" layoutY="201.0" prefHeight="40.0" prefWidth="277.0" styleClass="txt">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="txtResultadoHex" alignment="CENTER" layoutX="585.0" layoutY="298.0" prefHeight="40.0" prefWidth="277.0" styleClass="txt">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+      <Label layoutX="58.0" layoutY="42.0" text="Jesús Gabriel Torres Daza - 1152351" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="576.0" layoutY="43.0" text="Emerson Amir Vera González - 1152378" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
